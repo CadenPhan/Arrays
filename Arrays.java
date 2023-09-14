@@ -5,7 +5,7 @@
  * @author (your name)
  * @version (a version number or a date)
  */
-public class  Strings
+public class  Arrays
 {
     public static void main(String[] args) {
         System.out.println("Hello World!");
@@ -27,5 +27,14 @@ public class  Strings
         System.out.println(str2);
         System.out.println(str3);
         System.out.println(stringsEqual);
+        String[] strArray = {"Alpha","Beta","Charlie","Delta","Echo"};
+        for (int iterate = 0; iterate < strArray.length; iterate++) {
+            System.out.println(strArray[iterate]);
+        }
+        System.out.println(" ");
+        for (String value : strArray) {
+            System.out.print(strArray);
+            
+        }
     }
 }
